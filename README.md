@@ -1,1 +1,3 @@
 # TheOdinProjectCurriculum
+
+"Hello Odin"
