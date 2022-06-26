@@ -5,4 +5,70 @@ html  {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}  
+
+root {
+    --dark-background-color: #1F2937;
+    --header-main-text: #F9FAF8;
+    --header-secondary-text: #E5E7EB;
+    --button-color: #3882F6;
+}
+
+/* Typography */
+header {
+    color:var(--header-main-text,  #F9FAF8);
+}
+nav {
+    background-color: var(--dark-background-color, #1F2937);
+    padding: 1em;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--header-secondary-text, #E5E7EB);
+}
+
+.top {
+    background-color: var(--dark-background-color, #1F2937);
+    width: 100%;
+    height: 350px;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: var(--header-secondary-text, #E5E7Eb);
+    background-color: var(--button-color, #3882F6);
+    padding: .3em 1.5em;
+    border-radius: 8px;
+}
+
+/* Layout */
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.top {
+    display: flex;
+}
+
+.top .left {
+    width: 50%;
+
 }
